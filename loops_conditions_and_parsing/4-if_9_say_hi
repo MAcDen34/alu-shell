@@ -1,0 +1,15 @@
+#!/usr/bin/env bash 
+#Creating a while loop where the word "Best School" 10 times,But on the 9th, prints "Hi"
+num=1
+#Loop for creating the condition
+while [ $num -le 10 ]
+do
+if [ $num -eq 9 ]; then  #if statement for checking whether num position is 9th
+echo "Hi"
+
+else #else if not the 9th position print the below output
+ 
+echo "Best School"
+fi
+num=$((num + 1))
+done
