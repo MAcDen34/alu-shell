@@ -10,7 +10,7 @@ if [ $num -eq 4 ]; then #Second condition using if statement to check whether th
 elif [ $num -eq 8 ]; then #Third condition to check whethr num is on the 8th position to print the below output 
  echo "good luck"
 else
- echo "Best school" #if the 2nd and 3rd condition is not met it prints out this output
+ echo "Best School" #if the 2nd and 3rd condition is not met it prints out this output
 fi
 num=$((num + 1)) #increment num 
 done 
