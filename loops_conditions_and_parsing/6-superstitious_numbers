@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Creating a while loop with case scenerio to give out uniform output  until 20
 num=1 #counting starting from 1
 
 while [ $num -le 20 ]
