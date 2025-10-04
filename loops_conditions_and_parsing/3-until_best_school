@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#creating a loop of until loop where the output is "Best School" 10 times
+num=1
+# Loop for condition
+until [ ! $num -le 10 ]
+do
+echo "Best School"
+#Incrementing the num variable
+num=$((num + 1))
+done  
