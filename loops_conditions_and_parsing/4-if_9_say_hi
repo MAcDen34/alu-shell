@@ -6,6 +6,8 @@ while [ $num -le 10 ]
 do
 if [ $num -eq 9 ]; then  #if statement for checking whether num position is 9th
 
+echo "Best School"
+
 echo "Hi"
 
 else #else if not the 9th position print the below output
