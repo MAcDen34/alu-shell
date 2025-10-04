@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#Creating a hour minute clock with a while loop
+
+hour=0 #declaring the first variable for hours
+
+while [ $hour -le 12 ] #This is the outer loop for creating the Hour side of the clock 
+do
+ echo "Hour: $hour" #Prints the current hour 
+
+minute=1 #The minute variable that will starting counting after the hour printed 
+
+while [ $minute -le 59 ] #The inner while loop for counting the minutes with the hour 
+do
+ echo "$minute" #Prints the value of minute variable 
+ minute=$((minute + 1)) #counts to the next minute untile the condition is found false
+done
+hour=$((hour + 1)) #counts to the next hour when the minute condition is found false
+done
