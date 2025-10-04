@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Creating a while loop that prints the word "Best School" 10 times
+#First We create a variable that we use to increment the number of times
+num=1
+#We use the while loop to check if the num is less than 10
+while [ $num -le 10 ]
+do 
+echo "Best School"
+#This will incremnet num by 1
+num=$((num+1))
+done
