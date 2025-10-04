@@ -6,16 +6,11 @@ while [ $num -le 10 ] #Condition 1 for checking that the var called num is less 
 do 
 
 if [ $num -eq 4 ]; then #Second condition using if statement to check whether the num is on the 4th position to print the desired output
-
-echo "bad luck"
-
+ echo "bad luck"
 elif [ $num -eq 8 ]; then #Third condition to check whethr num is on the 8th position to print the below output 
-
-echo "good luck"
-
+ echo "good luck"
 else
-
-echo "Best school" #if the 2nd and 3rd condition is not met it prints out this output
+ echo "Best school" #if the 2nd and 3rd condition is not met it prints out this output
 fi
 num=$((num + 1)) #increment num 
 done 
