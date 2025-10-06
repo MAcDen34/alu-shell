@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Creating a loop that show the current file directory
+# skipping the characters before the dash
+
+for dash in *; do
+
+if [ -e "$dash" ]; then
+
+echo "${dash#*_}"
+
+fi
+
+done 
